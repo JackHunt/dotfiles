@@ -1,0 +1,5 @@
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+
+media-fonts/font-bh-* @BINARY-REDISTRIBUTABLE
+
+www-client/google-chrome google-chrome
