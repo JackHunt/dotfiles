@@ -1,0 +1,8 @@
+URxvt.scrollBar_right: true
+
+URxvt.background: #000000
+URxvt.foreground: #FFFFFF
+
+URxvt.font: xft:Fira Code Retina:style=Retina:pixelsize=12
+URxvt.boldFont: xft:Fira Code:style=Bold:pixelsize:12
+URxvt.italicFont: xft:Fira Code:style=Light:pixelsize:12
