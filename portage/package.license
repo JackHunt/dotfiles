@@ -1,5 +1,4 @@
-sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
-
 media-fonts/font-bh-* @BINARY-REDISTRIBUTABLE
-
 www-client/google-chrome google-chrome
+media-libs/faac	MPEG-4
+x11-drivers/nvidia-drivers NVIDIA-r2
