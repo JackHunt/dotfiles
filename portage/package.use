@@ -11,6 +11,7 @@ kde-plasma/kde-cli-tools kdesu X
 app-emulation/qemu opengl spice udev usb vhost-net vnc 
 sci-electronics/xnec2c doc examples
 net-misc/nextcloud-client dolphin
+dev-util/nvidia-cuda-toolkit debugger profiler vis-profiler sanitizer -nsight
 
 # Dependency USE flags.
 dev-libs/boost context python
