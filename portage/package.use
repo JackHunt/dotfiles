@@ -8,10 +8,11 @@ sci-mathematics/octave X fftw glpk gnuplot gui opengl qhull qrupdate sparse sund
 x11-misc/polybar alsa i3wm network
 x11-terms/rxvt-unicode 256-color blink font-styles mousewheel xft
 kde-plasma/kde-cli-tools kdesu X
-app-emulation/qemu opengl spice udev usb vhost-net vnc 
+app-emulation/qemu opengl spice udev usb vhost-net vnc usbredir 
 sci-electronics/xnec2c doc examples
 net-misc/nextcloud-client dolphin
 dev-util/nvidia-cuda-toolkit debugger profiler vis-profiler sanitizer -nsight
+media-sound/clementine moodbar projectm
 
 # Dependency USE flags.
 dev-libs/boost context python
@@ -32,6 +33,9 @@ net-dns/dnsmasq script
 
 # Nextcloud client dependency.
 dev-libs/qtkeychain gnome-keyring
+
+# Barrier (synergy fork) dependency.
+net-dns/avahi mdnsresponder-compat
 
 # Steam dependencies.
 virtual/opengl abi_x86_32
