@@ -1,0 +1,15 @@
+sci-electronics/kicad ~amd64
+sci-electronics/ngspice ~amd64
+sci-libs/oce ~amd64
+sci-visualization/xgraph ~amd64
+games-util/steam-meta ~amd64
+games-util/steam-launcher ~amd64
+games-util/steam-client-meta ~amd64
+games-util/game-device-udev-rules ~amd64
+games-util/steam-games-meta ~amd64
+media-radio/cqrlog ~amd64
+dev-haskell/stack-bin ~amd64
+net-im/skypeforlinux ~amd64
+dev-util/nvidia-cuda-toolkit ~amd64
+x11-drivers/nvidia-drivers ~amd64
+x11-misc/barrier ~amd64
