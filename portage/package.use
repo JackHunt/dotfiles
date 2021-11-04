@@ -7,7 +7,6 @@ sci-electronics/kicad github ngspice python
 sci-mathematics/octave X fftw glpk gnuplot gui opengl qhull qrupdate sparse sundials
 x11-misc/polybar alsa i3wm network
 x11-terms/rxvt-unicode 256-color blink font-styles mousewheel xft
-kde-plasma/kde-cli-tools kdesu X
 app-emulation/qemu opengl spice udev usb vhost-net vnc usbredir 
 sci-electronics/xnec2c doc examples
 net-misc/nextcloud-client dolphin

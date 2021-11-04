@@ -13,3 +13,8 @@ net-im/skypeforlinux ~amd64
 dev-util/nvidia-cuda-toolkit ~amd64
 x11-drivers/nvidia-drivers ~amd64
 x11-misc/barrier ~amd64
+x11-base/* ~amd64
+lxde-base/* ~amd64
+x11-libs/libfm ~amd64
+x11-misc/pcmanfm ~amd64
+x11-misc/barrier ~amd64
