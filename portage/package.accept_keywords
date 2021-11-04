@@ -18,3 +18,5 @@ lxde-base/* ~amd64
 x11-libs/libfm ~amd64
 x11-misc/pcmanfm ~amd64
 x11-misc/barrier ~amd64
+dev-cpp/gulrak-filesystem ~amd64 # Barrier dep.
+dev-qt/qtwebengine ~amd64 # Nextcloud dep.

@@ -16,7 +16,7 @@ PKGDIR="/var/cache/binpkgs"
 # This sets the language of build output to English.
 # Please keep this setting intact when reporting bugs.
 LC_MESSAGES=C
-USE="-bindist"
+USE="-bindist video_cards_radeon"
 MAKEOPTS="-j10 -l4"
 FEATURES="distcc"
 

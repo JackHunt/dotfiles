@@ -32,6 +32,9 @@ net-dns/dnsmasq script
 
 # Nextcloud client dependency.
 dev-libs/qtkeychain gnome-keyring
+dev-qt/qtwebengine widgets
+dev-qt/qtwebchannel qml
+sys-libs/zlib minizip
 
 # Barrier (synergy fork) dependency.
 net-dns/avahi mdnsresponder-compat
@@ -56,3 +59,21 @@ sys-libs/ncurses abi_x86_32
 dev-libs/libxml2 abi_x86_32
 dev-libs/icu abi_x86_32
 sys-libs/gpm abi_x86_32
+
+# Various 32bit X deps.
+x11-libs/libX11 abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-base/xcb-proto abi_x86_32
+media-libs/libglvnd abi_x86_32
+virtual/libelf abi_x86_32
+dev-libs/elfutils abi_x86_32
+app-arch/bzip2 abi_x86_32
+
+# Thunderbird-bin deps.
+media-libs/libvpx postproc
+
+# Stellarium deps.
+dev-qt/qtmultimedia widgets
