@@ -1,9 +1,0 @@
-media-fonts/font-bh-* @BINARY-REDISTRIBUTABLE
-www-client/google-chrome google-chrome
-media-libs/faac	MPEG-4
-x11-drivers/nvidia-drivers NVIDIA-r2
-sci-visualization/xgraph xgraph
-sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
-games-util/steam-launcher ValveSteamLicense
-net-im/skypeforlinux Skype-TOS
-dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
