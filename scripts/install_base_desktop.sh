@@ -27,7 +27,6 @@ sys-kernel/linux-firmware \
 sys-process/cronie \
 www-client/firefox \
 x11-base/xorg-x11 \
-x11-drivers/xf86-video-ati \
 x11-misc/barrier \
 x11-misc/dmenu \
 x11-misc/i3lock \
