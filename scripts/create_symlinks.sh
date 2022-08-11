@@ -13,6 +13,7 @@ EMACS=".emacs.d"
 ZSHRC=".zshrc"
 CONFIG=".config"
 XRES=".Xresources"
+WALLPAPERS="wallpapers"
 
 declare -A LINKS;
 LINKS=(
@@ -24,6 +25,7 @@ LINKS=(
     ["${ZSHRC}"]="${HOME}/${ZSHRC}"
     ["${CONFIG}"]="${HOME}/${CONFIG}"
     ["${XRES}"]="${HOME}/${XRES}"
+    ["${WALLPAPERS}"]="${HOME}/${WALLPAPERS}"
 )
 
 for src in "${!LINKS[@]}"; do
