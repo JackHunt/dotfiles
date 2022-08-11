@@ -11,6 +11,7 @@ MASK="package.mask"
 USE="package.use"
 EMACS=".emacs.d"
 ZSHRC=".zshrc"
+CONFIG=".config"
 
 declare -A LINKS;
 LINKS=(
@@ -20,6 +21,7 @@ LINKS=(
     ["${PD}/${USE}"]="${SYS_PD}/${USE}"
     ["${EMACS}"]="${HOME}/${EMACS}"
     ["${ZSHRC}"]="${HOME}/${ZSHRC}"
+    ["${CONFIG}"]="${HOME}/${CONFIG}"
 )
 
 for src in "${!LINKS[@]}"; do
