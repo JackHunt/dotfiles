@@ -12,6 +12,7 @@ USE="package.use"
 EMACS=".emacs.d"
 ZSHRC=".zshrc"
 CONFIG=".config"
+XRES=".Xresources"
 
 declare -A LINKS;
 LINKS=(
@@ -22,6 +23,7 @@ LINKS=(
     ["${EMACS}"]="${HOME}/${EMACS}"
     ["${ZSHRC}"]="${HOME}/${ZSHRC}"
     ["${CONFIG}"]="${HOME}/${CONFIG}"
+    ["${XRES}"]="${HOME}/${XRES}"
 )
 
 for src in "${!LINKS[@]}"; do

@@ -1,0 +1,3 @@
+!! URxvt
+URxvt.cursorBlink: true
+URxvt.scrollBar: false
