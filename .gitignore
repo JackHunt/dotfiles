@@ -3,3 +3,5 @@
 .config/libfm
 .config/procps
 .config/wal
+*~
+
