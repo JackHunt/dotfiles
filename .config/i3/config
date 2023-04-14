@@ -209,3 +209,6 @@ exec --no-startup-id ~/.local/bin/wal -i ~/wallpapers/night_city_1.jpg
 
 # Parcellite
 exec --no-startup-id parcellite
+
+# Xscreensaver.
+exec --no-startup-id xscreensaver

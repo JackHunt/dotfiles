@@ -2,15 +2,19 @@
 
 source ./scripts/utils.sh
 
-EMACS=".emacs.d"
+# EMACS=".emacs.d"
+DOOM=".doom.d"
 ZSHRC=".zshrc"
 CONFIG=".config"
+XRES=".Xresources"
 
 declare -A LINKS;
 LINKS=(
-    ["${EMACS}"]="${HOME}/${EMACS}"
+    #["${EMACS}"]="${HOME}/${EMACS}"
+    ["${DOOM}"]="${HOME}/${DOOM}"
     ["${ZSHRC}"]="${HOME}/${ZSHRC}"
     ["${CONFIG}"]="${HOME}/${CONFIG}"
+    ["${XRES}"]="${HOME}/${XRES}"
 )
 
 for src in "${!LINKS[@]}"; do
