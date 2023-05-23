@@ -36,6 +36,10 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='emacs'
 export PATH=$PATH:/sbin:/usr/sbin
 
+# May need to copy /usr/share/terminfo/r/rxvt-unicode to ~/.terminfo/r/rxvt-unicode
+# or uncomment the following if there's terminal identification issues.
+#export TERM='xterm-256color'
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/jackhunt/DATA1/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
