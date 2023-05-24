@@ -1,4 +1,7 @@
 ! URxvt
+URxvt*font: xft:FiraCode:medium:size=10:antialiasing=true
+URxvt*boldFont: xft:FiraCode:bold:size=10:antialiasing=true:style=medium
+
 URxvt.cursorBlink: true
 URxvt.scrollBar: false
 
@@ -17,7 +20,7 @@ URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
 ! Foreground and Background
-*.foreground: ##90d9d5
+*.foreground: #90d9d5
 *.background: #03090A
 *.cursorColor: #90d9d5
 
