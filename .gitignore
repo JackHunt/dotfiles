@@ -1,7 +1,11 @@
+.config/autostart
 .config/Code
+.config/google-chrome
 .config/gtk-*
 .config/libfm
+.config/mimeapps.list
 .config/procps
+.config/pulse
 .config/wal
+.config/znt
 *~
-
