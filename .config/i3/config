@@ -170,27 +170,15 @@ gaps inner 10
 gaps outer 5
 
 # Sreen brightness - NOT WORKING.
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+# bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+# bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
-# Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
-# Picom
-exec --no-startup-id picom
-
-# Run Feh - wallpaper.
+# Things to start.
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec --no-startup-id picom
 # exec --no-startup-id  feh --bg-scale ~/wallpapers/night_city_1.jpg
-
-# PyWAL
 # exec --no-startup-id ~/.local/bin/wal -i ~/wallpapers/night_city_1.jpg
-
-# Parcellite
-exec --no-startup-id parcellite
-
-# Xscreensaver.
+# exec --no-startup-id parcellite
 # exec --no-startup-id xscreensaver
-
-exec --no-startup-id nm-applet
-
-exec --no-startup-id dropboxd
+# exec --no-startup-id nm-applet
+# exec --no-startup-id dropboxd
