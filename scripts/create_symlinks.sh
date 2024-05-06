@@ -4,13 +4,13 @@ source ./scripts/utils.sh
 
 EMACS=".emacs.d"
 ZSHRC=".zshrc"
-CONFIG=".config"
+#CONFIG=".config"
 
 declare -A LINKS;
 LINKS=(
     ["${EMACS}"]="${HOME}/${EMACS}"
     ["${ZSHRC}"]="${HOME}/${ZSHRC}"
-    ["${CONFIG}"]="${HOME}/${CONFIG}"
+#    ["${CONFIG}"]="${HOME}/${CONFIG}"
 )
 
 for src in "${!LINKS[@]}"; do
