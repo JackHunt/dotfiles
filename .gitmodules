@@ -1,6 +1,4 @@
 [submodule ".emacs.d"]
 	path = .emacs.d
 	url = git@github.com:JackHunt/.emacs.d.git
-[submodule ".doom.d"]
-	path = .doom.d
-	url = git@github.com:JackHunt/.doom.d
+
