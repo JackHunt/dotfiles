@@ -1,4 +1,4 @@
-[submodule ".emacs.d"]
+[submodule ".emacs.d"] 
 	path = .emacs.d
 	url = git@github.com:JackHunt/.emacs.d.git
 
