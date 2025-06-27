@@ -15,7 +15,17 @@ HIST_STAMPS="dd.mm.yyyy"
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
-plugins=(cabal git stack zsh-navigation-tools)
+plugins=(
+  cabal
+  colored-man-pages
+  emacs
+  git
+  git-prompt
+  iterm2
+  safe-paste
+  stack
+  zsh-navigation-tools
+)
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -30,6 +40,8 @@ plugins=(cabal git stack zsh-navigation-tools)
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
+
+zstyle :omz:plugins:iterm2 shell-integration yes
 
 source $ZSH/oh-my-zsh.sh
 
