@@ -48,3 +48,5 @@ compinit
 setopt correctall
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+source ~/.zsh_private
