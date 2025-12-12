@@ -3,7 +3,6 @@
     "codeCellConfig": {
         "autoClosingBrackets": true,
         "highlightActiveLine": true,
-        "lineNumbers": false,
         "lineWrap": false
     },
     "defaultCell": "code",
